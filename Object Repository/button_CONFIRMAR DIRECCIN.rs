@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CONFIRMAR DIRECCIN</name>
+   <tag></tag>
+   <elementGuidId>b3a400c7-3ba7-4428-98ab-f158fad4cec2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-block.btn-lg.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal_nuevadireccion']/div/div/div[2]/form/div[2]/div/div[6]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>63c55812-2048-4a1f-8266-7e00f3dd5d5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-disabled</name>
+      <type>Main</type>
+      <value>restAcc</value>
+      <webElementGuid>25e34b62-d027-4997-b9d4-1904241f7874</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-block btn-lg btn-primary</value>
+      <webElementGuid>ca265186-71be-4683-bd07-6e77faaf2220</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>confirmarDir();</value>
+      <webElementGuid>15faaacb-7819-4c3d-8195-b8eb3f08c6b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CONFIRMAR DIRECCIÓN</value>
+      <webElementGuid>b09cc01d-dc49-47e4-b3cd-b83d301b30f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal_nuevadireccion&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body ng-scope&quot;]/form[@class=&quot;ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-minlength ng-dirty ng-valid-parse ng-valid-pattern&quot;]/div[2]/div[@class=&quot;row scroll_dirs pl-15&quot;]/div[@class=&quot;row  mb-15&quot;]/div[@class=&quot;col-xs-12 col-md-8 col-md-push-2 form-inline-center&quot;]/button[@class=&quot;btn btn-block btn-lg btn-primary&quot;]</value>
+      <webElementGuid>407d3794-fed7-4fa3-b870-d4b895f4e127</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal_nuevadireccion']/div/div/div[2]/form/div[2]/div/div[6]/div/button</value>
+      <webElementGuid>5acaba2b-3ea3-4a5e-83cc-a6589dc48429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='La Comer Insurgentes'])[1]/following::button[1]</value>
+      <webElementGuid>25208e8f-0580-4f86-8b49-e00bf9ffea81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IGNACIO VILLA 1426,04000,VILLA COAPA,MÉXICO,CIUDAD DE MEXICO'])[1]/preceding::button[1]</value>
+      <webElementGuid>a324b8ea-8274-4269-86da-63feeb46b953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elige una imagen para tu dirección *'])[1]/preceding::button[1]</value>
+      <webElementGuid>8a9156a2-841e-4a63-b64f-99e574b192d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CONFIRMAR DIRECCIÓN']/parent::*</value>
+      <webElementGuid>b8792416-83de-47cb-ad8f-40976fe97da3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/button</value>
+      <webElementGuid>e73ddb6e-5381-4c0b-8d4a-67a7bf234a1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'CONFIRMAR DIRECCIÓN' or . = 'CONFIRMAR DIRECCIÓN')]</value>
+      <webElementGuid>25ccc714-414c-4d1f-9cd1-a8c10f40a052</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
