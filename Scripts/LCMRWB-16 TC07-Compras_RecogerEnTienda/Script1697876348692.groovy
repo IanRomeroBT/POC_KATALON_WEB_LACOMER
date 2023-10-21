@@ -17,10 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('LCMRWB-9 TC06-Busqueda_BuscarProducto'), [('nombreProducto') : 'Pinol'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LCMRWB-7 TC04-Carrito_ConsultarCarrito'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/img_Resultados de tu bsqueda_li_prod_mosaic'))
+WebUI.click(findTestObject('Object Repository/button_recoger'))
 
-WebUI.setText(findTestObject('Object Repository/input_77.00 M.N. pieza_pediCant'), '2')
+WebUI.click(findTestObject('Object Repository/button_NO (1)'))
 
-WebUI.click(findTestObject('Object Repository/button_Piezas_addShopCartDetail'))
+WebUI.click(findTestObject('Object Repository/button_aceptar'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/button_continuarHorario'))
+
+WebUI.click(findTestObject('Object Repository/button_horario'))
+
+WebUI.click(findTestObject('Object Repository/button_aceptar'))
+
+WebUI.click(findTestObject('Object Repository/button_continuar'))
+
+WebUI.click(findTestObject('Object Repository/button_contraEntrega'))
+

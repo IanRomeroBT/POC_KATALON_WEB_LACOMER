@@ -17,4 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/LCMRWB-9 TC06-Busqueda_BuscarProducto 1.feature')
+WebUI.waitForElementClickable(findTestObject('Object Repository/input_BUSCAR PRODUCTOS_idSearch'), 30)
+
+WebUI.click(findTestObject('Object Repository/input_BUSCAR PRODUCTOS_idSearch'))
+
+WebUI.setText(findTestObject('Object Repository/input_BUSCAR PRODUCTOS_idSearch'), nombreProducto)
+
+WebUI.sendKeys(findTestObject('Object Repository/input_BUSCAR PRODUCTOS_idSearch'), Keys.chord(Keys.ENTER))
+
+WebUI.mouseOver(findTestObject('Object Repository/img_productFirst'))

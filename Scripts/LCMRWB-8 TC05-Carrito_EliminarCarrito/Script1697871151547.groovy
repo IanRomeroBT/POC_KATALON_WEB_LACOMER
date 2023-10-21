@@ -17,4 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/LCMRWB-8 TC05-Carrito_EliminarCarrito 1.feature')
+WebUI.navigateToUrl('https://www.lacomer.com.mx/lacomer/')
+
+WebUI.click(findTestObject('Object Repository/img_Salir_carritoH_1'))
+
+WebUI.click(findTestObject('Object Repository/div_Vaciar carrito'))
+
+WebUI.click(findTestObject('Object Repository/button_S'))

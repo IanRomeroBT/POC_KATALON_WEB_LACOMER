@@ -16,4 +16,17 @@ Description: </description>
    </integratedEntity>
    <comment></comment>
    <testCaseGuid>76de864f-d6e9-4426-8edb-ab3dad811e9b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08c85344-9ba7-4084-b7de-b11f8ba60718</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Jabón'</defaultValue>
+      <description></description>
+      <id>08c85344-9ba7-4084-b7de-b11f8ba60718</id>
+      <masked>false</masked>
+      <name>nombreProducto</name>
+   </variable>
 </TestCaseEntity>

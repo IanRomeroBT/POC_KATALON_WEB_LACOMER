@@ -17,4 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/LCMRWB-2 TC01-Login_AccesoValido 1.feature')
+WebUI.click(findTestObject('Object Repository/span_Ingresa'))
+
+WebUI.setText(findTestObject('Object Repository/input_LaComer Login_j_username'), 'ian_al98@hotmail.es')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/input_LaComer Login_j_password'), 'OmDeAuJ1p0v9+I26niaU1A==')
+
+WebUI.click(findTestObject('Object Repository/a_Entrar'))
+
+WebUI.waitForElementNotPresent(findTestObject('Object Repository/a_Entrar'), 30)

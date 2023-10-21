@@ -17,4 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/LCMRWB-3 TC02-Productos_AgregarCarritoVistaRapida 1.feature')
+WebUI.callTestCase(findTestCase('LCMRWB-9 TC06-Busqueda_BuscarProducto'), [('nombreProducto') : 'Aceite Canola'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/button_Resultados de tu bsqueda_btn_addtoCa_d084b1'))
+
+WebUI.click(findTestObject('Object Repository/img_Agregaste al carrito 1 pieza de Aceite _698e96'))
