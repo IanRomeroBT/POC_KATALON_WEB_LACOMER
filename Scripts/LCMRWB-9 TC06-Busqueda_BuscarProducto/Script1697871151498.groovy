@@ -17,3 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CucumberKW.runFeatureFile('Include/features/LCMRWB-9 TC06-Busqueda_BuscarProducto 1.feature')

@@ -17,3 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CucumberKW.runFeatureFile('Include/features/LCMRWB-7 TC04-Carrito_ConsultarCarrito 1.feature')

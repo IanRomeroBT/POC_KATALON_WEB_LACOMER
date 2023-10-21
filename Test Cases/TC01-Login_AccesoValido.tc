@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC01-Login_AccesoValido</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>51b17d6a-c473-4d49-8090-8a5f277ca1c0</testCaseGuid>
-</TestCaseEntity>
