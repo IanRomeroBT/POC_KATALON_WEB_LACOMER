@@ -31,9 +31,6 @@ WebUI.click(findTestObject('Object Repository/button_continuarHorario'))
 
 WebUI.click(findTestObject('Object Repository/button_horario'))
 
-WebUI.click(findTestObject('Object Repository/button_aceptar'))
-
 WebUI.click(findTestObject('Object Repository/button_continuar'))
 
 WebUI.click(findTestObject('Object Repository/button_contraEntrega'))
-
