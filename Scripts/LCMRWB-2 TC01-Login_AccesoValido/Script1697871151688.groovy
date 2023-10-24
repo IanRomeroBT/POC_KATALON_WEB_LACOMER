@@ -25,4 +25,4 @@ WebUI.setEncryptedText(findTestObject('Object Repository/input_LaComer Login_j_p
 
 WebUI.click(findTestObject('Object Repository/a_Entrar'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/a_Entrar'), 30)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/a_Entrar'), 30 , FailureHandling.STOP_ON_FAILURE)
