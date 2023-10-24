@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/span_Ingresa'))
 
-WebUI.setText(findTestObject('Object Repository/input_LaComer Login_j_username'), 'ian_al98@hotmaiAl.es')
+WebUI.setText(findTestObject('Object Repository/input_LaComer Login_j_username'), 'ian_al98@hotmail.es')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/input_LaComer Login_j_password'), 'OmDeAuJ1p0v9+I26niaU1A==')
 
